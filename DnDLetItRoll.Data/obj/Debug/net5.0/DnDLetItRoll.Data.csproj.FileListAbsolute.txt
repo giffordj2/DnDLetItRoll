@@ -9,3 +9,7 @@ D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Dat
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.dll
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\ref\DnDLetItRoll.Data.dll
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.pdb
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Domain.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Domain.pdb
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.csproj.AssemblyReference.cache
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.csproj.CopyComplete
