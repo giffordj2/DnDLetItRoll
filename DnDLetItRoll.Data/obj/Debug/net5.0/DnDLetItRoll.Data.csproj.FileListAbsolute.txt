@@ -1,0 +1,11 @@
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Data.deps.json
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Data.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\ref\DnDLetItRoll.Data.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Data.pdb
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.AssemblyInfoInputs.cache
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.AssemblyInfo.cs
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.csproj.CoreCompileInputs.cache
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\ref\DnDLetItRoll.Data.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.pdb
