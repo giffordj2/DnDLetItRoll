@@ -13,3 +13,6 @@ D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Dom
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Domain.pdb
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.csproj.AssemblyReference.cache
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.csproj.CopyComplete
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Data.runtimeconfig.json
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\bin\Debug\net5.0\DnDLetItRoll.Data.runtimeconfig.dev.json
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Data\obj\Debug\net5.0\DnDLetItRoll.Data.genruntimeconfig.cache

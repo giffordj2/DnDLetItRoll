@@ -56,3 +56,5 @@ D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\bin\Debug\net5.0\DnDLetItRoll.Domai
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\bin\Debug\net5.0\DnDLetItRoll.Data.pdb
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\bin\Debug\net5.0\DnDLetItRoll.Domain.pdb
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\DnDLetItRoll.UI.csproj.CopyComplete
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\bin\Debug\net5.0\Humanizer.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -1,4 +1,5 @@
 using DnDLetItRoll.Data;
+using DnDLetItRoll.Domain.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -19,12 +20,24 @@ namespace DnDLetItRoll.UI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 
         public IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddScoped<IBackgroundRepository, BackgroundRepository>();
+            services.AddScoped<ICharacterRepository, CharacterRepository>();
+            services.AddScoped<IClassRepository, ClassRepository>();
+            services.AddScoped<IRaceRepository, RaceRepository>();
+            services.AddScoped<ISubraceRepository, SubraceRepository>();
+             
+
+            //register framework services
             services.AddControllersWithViews();
             services.AddDbContext<DnDContext>(opt =>
-            opt.UseSqlServer(Configuration.GetConnectionString("DnDConnex"))
+            opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             .EnableSensitiveDataLogging()
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
         }
