@@ -143,6 +143,20 @@ namespace DnDLetItRoll.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Races");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Bold and Hardy, Dwarves are known as skilled warriors, miners, and workers of stone and metal.",
+                            IncreaseAmount = 2,
+                            Languages = "[\"Common\",\"Dwarvish\"]",
+                            Name = "Dwarf",
+                            RacialTraits = "[\"Darkvision\",\"Dwarven Resilience\",\"Dwarven Combat Training\",\"Stonecunning\"]",
+                            Size = "Medium",
+                            Speed = 25,
+                            StatIncreased = "Constitution"
+                        });
                 });
 
             modelBuilder.Entity("DnDLetItRoll.Domain.Models.Subrace", b =>
@@ -175,6 +189,18 @@ namespace DnDLetItRoll.Data.Migrations
                     b.HasIndex("RaceId");
 
                     b.ToTable("Subraces");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
+                            IncreaseAmount = 1,
+                            Name = "Hill Dwarf",
+                            RaceId = 1,
+                            RacialTraits = "[\"Dwarven Toughness\"]",
+                            StatIncreased = "Wisdom"
+                        });
                 });
 
             modelBuilder.Entity("DnDLetItRoll.Domain.Models.Character", b =>

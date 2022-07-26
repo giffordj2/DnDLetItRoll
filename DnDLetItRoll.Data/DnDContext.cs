@@ -41,6 +41,38 @@ namespace DnDLetItRoll.Data
                 .HasConversion(
                     v => JsonConvert.SerializeObject(v),
                     v => JsonConvert.DeserializeObject<List<string>>(v));
+
+            //Race seed data
+            modelBuilder.Entity<Race>().HasData(new Race
+            {
+                Id = 1,
+                Name = "Dwarf",
+                Description = "Bold and Hardy, Dwarves are known as skilled warriors, miners, and workers of stone and metal.",
+                StatIncreased = "Constitution",
+                IncreaseAmount = 2,
+                Size = "Medium",
+                Speed = 25,
+                Languages = { "Common", "Dwarvish" },
+                RacialTraits = {"Darkvision",
+                                "Dwarven Resilience",
+                                "Dwarven Combat Training",
+                                "Stonecunning"}
+            });
+
+            //Subrace seed data
+            modelBuilder.Entity<Subrace>().HasData(new Subrace
+            {
+                Id = 1,
+                Name = "Hill Dwarf",
+                Description = "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
+                StatIncreased = "Wisdom",
+                IncreaseAmount = 1,
+                RacialTraits =
+                {
+                    "Dwarven Toughness"
+                },
+                RaceId = 1
+            });
         }
     }   
 }
