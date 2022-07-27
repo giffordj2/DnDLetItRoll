@@ -10,3 +10,15 @@ D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.D
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.dll
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\ref\DnDLetItRoll.Domain.dll
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.pdb
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\bin\Debug\net5.0\DnDLetItRoll.Domain.deps.json
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\bin\Debug\net5.0\DnDLetItRoll.Domain.dll
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\bin\Debug\net5.0\ref\DnDLetItRoll.Domain.dll
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\bin\Debug\net5.0\DnDLetItRoll.Domain.pdb
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.csproj.AssemblyReference.cache
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.AssemblyInfoInputs.cache
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.AssemblyInfo.cs
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.dll
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\ref\DnDLetItRoll.Domain.dll
+D:\Projects\DnDLetItRoll\DnDLetItRoll.Domain\obj\Debug\net5.0\DnDLetItRoll.Domain.pdb

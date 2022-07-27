@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "shQkWhnF06UtcYAicsOLhlxBDV899UrbHtX1o7le7s3PgOTT+kBSNMXHF4m8s1MxkXaPUAciAMtYBqeL1nDMxQ==",
+  "dgSpecHash": "MxfEmyRbw/NKBXMfuMQUb9J6PH1MkHNu8IZUQbbQU9Mt7/PZEdyjpzBkkps1dT7hXLw9/hoMJ200O6RT2wwkTw==",
   "success": true,
-  "projectFilePath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
+  "projectFilePath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

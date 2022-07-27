@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj": {}
+    "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj": {}
   },
   "projects": {
-    "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj": {
+    "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj",
+        "projectUniqueName": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj",
         "projectName": "DnDLetItRoll.Data",
-        "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj",
+        "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj",
         "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Data\\obj\\",
+        "outputPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj": {
-                "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj"
+              "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj": {
+                "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj": {
+    "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
         "projectName": "DnDLetItRoll.Domain",
-        "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
+        "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
         "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\obj\\",
+        "outputPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -140,14 +140,14 @@
         }
       }
     },
-    "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj": {
+    "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj",
+        "projectUniqueName": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj",
         "projectName": "DnDLetItRoll.UI",
-        "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj",
+        "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj",
         "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.UI\\obj\\",
+        "outputPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -170,11 +170,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj": {
-                "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj"
+              "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj": {
+                "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Data\\DnDLetItRoll.Data.csproj"
               },
-              "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj": {
-                "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj"
+              "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj": {
+                "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj"
               }
             }
           }
@@ -188,22 +188,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

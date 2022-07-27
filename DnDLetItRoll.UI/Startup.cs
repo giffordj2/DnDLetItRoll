@@ -32,7 +32,7 @@ namespace DnDLetItRoll.UI
             services.AddScoped<IClassRepository, ClassRepository>();
             services.AddScoped<IRaceRepository, RaceRepository>();
             services.AddScoped<ISubraceRepository, SubraceRepository>();
-             
+
 
             //register framework services
             services.AddControllersWithViews();
@@ -59,7 +59,7 @@ namespace DnDLetItRoll.UI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Races}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
