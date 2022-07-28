@@ -27,11 +27,8 @@ namespace DnDLetItRoll.UI
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddScoped<IBackgroundRepository, BackgroundRepository>();
-            services.AddScoped<ICharacterRepository, CharacterRepository>();
-            services.AddScoped<IClassRepository, ClassRepository>();
-            services.AddScoped<IRaceRepository, RaceRepository>();
-            services.AddScoped<ISubraceRepository, SubraceRepository>();
+            
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 
             //register framework services

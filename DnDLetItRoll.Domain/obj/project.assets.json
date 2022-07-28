@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
+      "projectUniqueName": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
       "projectName": "DnDLetItRoll.Domain",
-      "projectPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
+      "projectPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\DnDLetItRoll.Domain.csproj",
       "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.Domain\\obj\\",
+      "outputPath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

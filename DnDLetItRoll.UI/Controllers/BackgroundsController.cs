@@ -13,9 +13,9 @@ namespace DnDLetItRoll.UI.Controllers
 {
     public class BackgroundsController : Controller
     {
-        private readonly IBackgroundRepository _backgroundRepository;
+        private readonly IGenericRepository<Background> _backgroundRepository;
 
-        public BackgroundsController(IBackgroundRepository backgroundRepository)
+        public BackgroundsController(IGenericRepository<Background> backgroundRepository)
         {
             _backgroundRepository = backgroundRepository;
         }
@@ -23,13 +23,13 @@ namespace DnDLetItRoll.UI.Controllers
         // GET: Backgrounds
         public ActionResult Index()
         {
-            return View(_backgroundRepository.AllBackgrounds);
+            return View(_backgroundRepository.Get());
         }
 
         // GET: Backgrounds/Details/5
         public ActionResult Details(int id)
         {
-            Background background = _backgroundRepository.GetBackgroundById(id);
+            Background background = _backgroundRepository.GetByID(id);
             return View(background);
         }
 
@@ -48,7 +48,7 @@ namespace DnDLetItRoll.UI.Controllers
         {
             if (ModelState.IsValid)
             {
-                _backgroundRepository.InsertBackground(background);
+                _backgroundRepository.Insert(background);
                 _backgroundRepository.Save();
                 return RedirectToAction(nameof(Index));
             }
@@ -58,7 +58,7 @@ namespace DnDLetItRoll.UI.Controllers
         // GET: Backgrounds/Edit/5
         public ActionResult Edit(int id)
         {
-            Background background = _backgroundRepository.GetBackgroundById(id);
+            Background background = _backgroundRepository.GetByID(id);
             return View(background);
         }
 
@@ -74,7 +74,7 @@ namespace DnDLetItRoll.UI.Controllers
             {
                 try
                 {
-                    _backgroundRepository.UpdateBackground(background);
+                    _backgroundRepository.Update(background);
                     _backgroundRepository.Save();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -96,7 +96,7 @@ namespace DnDLetItRoll.UI.Controllers
         // GET: Backgrounds/Delete/5
         public ActionResult Delete(int id)
         {
-            Background background = _backgroundRepository.GetBackgroundById(id);
+            Background background = _backgroundRepository.GetByID(id);
             if (background == null)
             {
                 return NotFound();
@@ -110,15 +110,15 @@ namespace DnDLetItRoll.UI.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Background background = _backgroundRepository.GetBackgroundById(id);
-            _backgroundRepository.Deletebackground(id);
+            Background background = _backgroundRepository.GetByID(id);
+            _backgroundRepository.Delete(id);
             _backgroundRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         private bool BackgroundExists(int id)
         {
-            return _backgroundRepository.AllBackgrounds.Any(e => e.Id == id);
+            return _backgroundRepository.Get().Any(e => e.Id == id);
         }
     }
 }

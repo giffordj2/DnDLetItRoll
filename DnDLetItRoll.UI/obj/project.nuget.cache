@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+GHfCDRmrTxXsYKLYacwQ65iIs33njpRqIJGmy9rNqgjmqJuqu8LMytvO0A7R0TjfnB4i1KQ5mbWKB74z/LbJA==",
+  "dgSpecHash": "VsAzheRSxmsllOb0Abga80co9ue3h71xfr6ny0Tz5/IK2h+D/Kr6de0o/a8dU+ajkMtmJx8j5q3WZhLlHXinrg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj",
+  "projectFilePath": "D:\\CodeKentucky\\DnDLetItRoll\\DnDLetItRoll.UI\\DnDLetItRoll.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

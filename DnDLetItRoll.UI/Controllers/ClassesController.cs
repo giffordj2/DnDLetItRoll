@@ -7,40 +7,30 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DnDLetItRoll.Data;
 using DnDLetItRoll.Domain.Models;
+using DnDLetItRoll.Domain.Services;
 
 namespace DnDLetItRoll.UI.Controllers
 {
     public class ClassesController : Controller
     {
-        private readonly DnDContext _context;
+        private readonly IGenericRepository<Class> _classRepository;
 
-        public ClassesController(DnDContext context)
+        public ClassesController(IGenericRepository<Class> classRepository)
         {
-            _context = context;
+            _classRepository = classRepository;
         }
 
         // GET: Classes
-        public async Task<IActionResult> Index()
+        public ActionResult Index()
         {
-            return View(await _context.Classes.ToListAsync());
+            return View(_classRepository.Get());
         }
 
         // GET: Classes/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public ActionResult Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var @class = await _context.Classes
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (@class == null)
-            {
-                return NotFound();
-            }
-
-            return View(@class);
+            Class classObject = _classRepository.GetByID(id);
+            return View(classObject);
         }
 
         // GET: Classes/Create
@@ -54,26 +44,22 @@ namespace DnDLetItRoll.UI.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,HitDie")] Class @class)
+        public ActionResult Create([Bind("Id,Name,Description,HitDie")] Class @class)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(@class);
-                await _context.SaveChangesAsync();
+                _classRepository.Insert(@class);
+                _classRepository.Save();
                 return RedirectToAction(nameof(Index));
             }
             return View(@class);
         }
 
         // GET: Classes/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var @class = await _context.Classes.FindAsync(id);
+            var @class = _classRepository.GetByID(id);
             if (@class == null)
             {
                 return NotFound();
@@ -86,7 +72,7 @@ namespace DnDLetItRoll.UI.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,HitDie")] Class @class)
+        public ActionResult Edit(int id, [Bind("Id,Name,Description,HitDie")] Class @class)
         {
             if (id != @class.Id)
             {
@@ -97,8 +83,8 @@ namespace DnDLetItRoll.UI.Controllers
             {
                 try
                 {
-                    _context.Update(@class);
-                    await _context.SaveChangesAsync();
+                    _classRepository.Update(@class);
+                    _classRepository.Save();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -117,15 +103,9 @@ namespace DnDLetItRoll.UI.Controllers
         }
 
         // GET: Classes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var @class = await _context.Classes
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var @class = _classRepository.GetByID(id);
             if (@class == null)
             {
                 return NotFound();
@@ -137,17 +117,17 @@ namespace DnDLetItRoll.UI.Controllers
         // POST: Classes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(int id)
         {
-            var @class = await _context.Classes.FindAsync(id);
-            _context.Classes.Remove(@class);
-            await _context.SaveChangesAsync();
+            var @class = _classRepository.GetByID(id);
+            _classRepository.Delete(@class);
+            _classRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ClassExists(int id)
         {
-            return _context.Classes.Any(e => e.Id == id);
+            return _classRepository.Get().Any(e => e.Id == id);
         }
     }
 }

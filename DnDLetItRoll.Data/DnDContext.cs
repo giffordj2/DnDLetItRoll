@@ -11,6 +11,10 @@ namespace DnDLetItRoll.Data
 {
     public class DnDContext : DbContext
     {
+        public DnDContext()
+        {
+        }
+
         public DnDContext(DbContextOptions<DnDContext> options)
             :base(options)
         {

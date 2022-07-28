@@ -13,9 +13,9 @@ namespace DnDLetItRoll.UI.Controllers
 {
     public class RacesController : Controller
     {
-        private readonly IRaceRepository _raceRepository;
+        private readonly IGenericRepository<Race> _raceRepository;
 
-        public RacesController(IRaceRepository raceRepository)
+        public RacesController(IGenericRepository<Race> raceRepository)
         {
             _raceRepository = raceRepository;
         }
@@ -23,13 +23,13 @@ namespace DnDLetItRoll.UI.Controllers
         // GET: Races
         public ViewResult Index()
         {
-            return View(_raceRepository.AllRaces);
+            return View(_raceRepository.Get());
         }
 
         // GET: Races/Details/5
         public ViewResult Details(int id)
         {
-            Race race = _raceRepository.GetRaceById(id);
+            Race race = _raceRepository.GetByID(id);
             return View(race);
         }
 
@@ -48,7 +48,7 @@ namespace DnDLetItRoll.UI.Controllers
         {
             if (ModelState.IsValid)
             {
-                _raceRepository.InsertRace(race);
+                _raceRepository.Insert(race);
                 _raceRepository.Save();
                 return RedirectToAction("Index");
             }
@@ -58,7 +58,7 @@ namespace DnDLetItRoll.UI.Controllers
         // GET: Races/Edit/5
         public ActionResult Edit(int id)
         {
-            Race race = _raceRepository.GetRaceById(id);
+            Race race = _raceRepository.GetByID(id);
             return View(race);
         }
 
@@ -74,7 +74,7 @@ namespace DnDLetItRoll.UI.Controllers
             {
                 try
                 {
-                    _raceRepository.UpdateRace(race);
+                    _raceRepository.Update(race);
                     _raceRepository.Save();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -97,7 +97,7 @@ namespace DnDLetItRoll.UI.Controllers
         public ActionResult Delete(int id)
         {
 
-            Race race = _raceRepository.GetRaceById(id);
+            Race race = _raceRepository.GetByID(id);
             if (race == null)
             {
                 return NotFound();
@@ -111,15 +111,15 @@ namespace DnDLetItRoll.UI.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            var race = _raceRepository.GetRaceById(id);
-            _raceRepository.DeleteRace(id);
+            var race = _raceRepository.GetByID(id);
+            _raceRepository.Delete(id);
             _raceRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         private bool RaceExists(int id)
         {
-            return _raceRepository.AllRaces.Any(e => e.Id == id);
+            return _raceRepository.Get().Any(e => e.Id == id);
         }
     }
 }
