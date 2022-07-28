@@ -11,5 +11,9 @@ namespace DnDLetItRoll.Domain.Services
     {
         IEnumerable<Background> AllBackgrounds { get; }
         Background GetBackgroundById(int backgroundId);
+        void InsertBackground(Background background);
+        void Deletebackground(int backgroundID);
+        void UpdateBackground(Background background);
+        void Save();
     }
 }

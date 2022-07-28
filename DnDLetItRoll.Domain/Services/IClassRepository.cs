@@ -11,5 +11,9 @@ namespace DnDLetItRoll.Domain.Services
     {
         IEnumerable<Class> AllClasses { get; }
         Class GetClassById(int classId);
+        void InsertClass(Class className);
+        void DeleteClass(int classID);
+        void UpdateClass(Class className);
+        void Save();
     }
 }

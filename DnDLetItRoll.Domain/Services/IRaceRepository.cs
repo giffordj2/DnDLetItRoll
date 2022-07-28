@@ -11,5 +11,10 @@ namespace DnDLetItRoll.Domain.Services
     {
         IEnumerable<Race> AllRaces { get; }
         Race GetRaceById(int raceId);
+        void InsertRace(Race race);
+        void DeleteRace(int raceID);
+        void UpdateRace(Race race);
+        void Save();
+
     }
 }
