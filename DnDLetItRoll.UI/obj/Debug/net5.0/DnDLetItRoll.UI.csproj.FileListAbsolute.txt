@@ -309,7 +309,6 @@ D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Classe
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Classes\Edit.cshtml.g.cs
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Classes\Index.cshtml.g.cs
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Races\Create.cshtml.g.cs
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Races\Delete.cshtml.g.cs
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.UI\obj\Debug\net5.0\Razor\Views\Races\Details.cshtml.g.cs

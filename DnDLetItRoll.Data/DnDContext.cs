@@ -77,6 +77,37 @@ namespace DnDLetItRoll.Data
                 },
                 RaceId = 1
             });
+            modelBuilder.Entity<Subrace>().HasData(new Subrace
+            {
+                Id = 2,
+                Name = "Mountain Dwarf",
+                Description = "As a mountian dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You're probably on teh tall side (for a dwarf), and tend toward lighter coloration.",
+                StatIncreased = "Strength",
+                IncreaseAmount = 2,
+                RacialTraits =
+                {
+                    "Dwarven Armor Training"
+                },
+                RaceId = 1
+            });
+
+            //Class seed data
+            modelBuilder.Entity<Class>().HasData(new Class
+            {
+                Id = 1,
+                Name = "Barbarian",
+                Description = "A fierce warrior of primitive background who can enter a battle rage.",
+                HitDie = "d12"
+            });
+
+            //Background seed data
+            modelBuilder.Entity<Background>().HasData(new Background
+            {
+                Id = 1,
+                Name = "Soldier",
+                Description = "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. " +
+                 "You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war."
+            });
         }
     }   
 }
