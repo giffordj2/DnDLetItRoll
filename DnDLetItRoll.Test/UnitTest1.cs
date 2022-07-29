@@ -21,7 +21,7 @@ namespace DnDLetItRoll.Test
         public void TestClassControllerDetial()
         {
             var mockRepo = new Mock<IGenericRepository<Class>>();
-            mockRepo.Setup(repo => repo.Get()).Returns(GetTestClasses());
+            mockRepo.Setup(repo => repo.Get(r => r.HitDie == "d20", q => q.OrderBy(c => c.Id), "")).Returns(GetTestClasses());
             ClassesController controller = new ClassesController(mockRepo.Object);
             ViewResult result = controller.Details(2) as ViewResult;
             Class @class = (Class) result.ViewData.Model;
