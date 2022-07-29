@@ -27,7 +27,7 @@ namespace DnDLetItRoll.UI.Controllers
         }
 
         // GET: Classes/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
             Class classObject = _classRepository.GetByID(id);
             return View(classObject);

@@ -216,3 +216,5 @@ D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Test\obj\Debug\net5.0\DnDLetItRoll.Tes
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Test\obj\Debug\net5.0\ref\DnDLetItRoll.Test.dll
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Test\obj\Debug\net5.0\DnDLetItRoll.Test.pdb
 D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Test\obj\Debug\net5.0\DnDLetItRoll.Test.genruntimeconfig.cache
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Test\bin\Debug\net5.0\Castle.Core.dll
+D:\CodeKentucky\DnDLetItRoll\DnDLetItRoll.Test\bin\Debug\net5.0\Moq.dll

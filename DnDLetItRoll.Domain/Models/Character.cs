@@ -32,13 +32,13 @@ namespace DnDLetItRoll.Domain.Models
 
 
         //Method to get the modifer for one of the character's stats
-        public static double GetModifer(int stat)
+        public double GetModifer(int stat)
         {
-            return Math.Round((double)(stat - 10) / 2, MidpointRounding.AwayFromZero);
+            return Math.Round((double)(stat - 10) / 2);
         }
 
         //Method to get the number and type of dice to be rolled by character
-        public static List<int> GetDice(string dice)
+        public List<int> GetDice(string dice)
         {
             List<int> whichDice = new List<int>();
             foreach (Match m in Regex.Matches(dice, @"\d+"))
@@ -50,7 +50,7 @@ namespace DnDLetItRoll.Domain.Models
         }
 
         //Method for character to roll a specified number of dice with a specified number of sides
-        public static int RollDice(int numberOfDice, int numberOfSides)
+        public  int RollDice(int numberOfDice, int numberOfSides)
         {
             int sum = 0;
             Random diceSide = new Random();
