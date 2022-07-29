@@ -11,7 +11,9 @@ Launch the app by clicking 'Run'.
 Features:
 
 This App is an MVC App built with EF. It reads and writes data to a database and displays the values in the app. Per Ernesto, this is a feature that would fulfill a Features list requirement.
+
 This App creates lists, populate them with several values, retrieves at least one value, and use it in the app.
+
 This App creates a least one Unit Test.
 
 Future Improvements:
