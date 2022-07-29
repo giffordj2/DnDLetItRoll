@@ -4,7 +4,7 @@ This MVC App was created to fulfill the project requirements for the Code Kentuc
 This is a unofficial companion app for Dungeons and Dragons the TTRPG that allows DMs to share information on Races, Classes, and Background with the player. It also allows
     players to add homebrew elements for each of those categories.
     
-To run this app, please view the package management console and 'add-migration init' and update database.
+To run this app, please view the package management console and update database.
 
 Launch the app by clicking 'Run'.
 

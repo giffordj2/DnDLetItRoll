@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDLetItRoll.Domain", "DnDL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDLetItRoll.Data", "DnDLetItRoll.Data\DnDLetItRoll.Data.csproj", "{E2FA0020-6343-4BB9-92DD-DD718571AC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDLetItRoll.UI", "DnDLetItRoll.UI\DnDLetItRoll.UI.csproj", "{6C769BB7-81C8-41C0-B77B-93D055C8C58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDLetItRoll.UI", "DnDLetItRoll.UI\DnDLetItRoll.UI.csproj", "{6C769BB7-81C8-41C0-B77B-93D055C8C58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDLetItRoll.Test", "DnDLetItRoll.Test\DnDLetItRoll.Test.csproj", "{3F3E17D8-3FBF-41EF-8243-5108D7FAE084}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6C769BB7-81C8-41C0-B77B-93D055C8C58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C769BB7-81C8-41C0-B77B-93D055C8C58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C769BB7-81C8-41C0-B77B-93D055C8C58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3E17D8-3FBF-41EF-8243-5108D7FAE084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3E17D8-3FBF-41EF-8243-5108D7FAE084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3E17D8-3FBF-41EF-8243-5108D7FAE084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3E17D8-3FBF-41EF-8243-5108D7FAE084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
